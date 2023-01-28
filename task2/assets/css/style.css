@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#register .container-fluid .image{
+    
+    height: 100vh;
+}
+
+#register .container-fluid .image img{
+    object-fit: cover;
+}
+
+#register .container-fluid .wordsP{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246 247 252);
+}
+
+#register .container-fluid .wordsP .bottomP{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#register .container-fluid .wordsP .bottomP .forget{
+
+}
+
+#register .container-fluid .wordsP .bottomP .forget a{
+    color: rgb(142 142 158);
+}
+
+#register .container-fluid .wordsP .enterance span{
+    font-size: 25px;
+
+}
+
+#register .container-fluid .wordsP .enterance p{
+    color: rgb(176 177 183);
+
+}
+
+#register .container-fluid .wordsP .buttonP{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#register .container-fluid .wordsP .buttonP button{
+    background-color: rgb(252 118 27);
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.color{
+    /* background-color: rgb(252 118 27); */
+}
+
+.color:hover{
+    background-color: rgb(252 118 27);
+}

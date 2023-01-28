@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#register{
+
+}
+
+#register .container{
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#register .leftP{
+    background-color: rgb(4 125 255);
+    padding: 100px 60px;
+    position: relative;
+    right: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.leftP img{
+    width: 240px;
+    height: 250px;
+}
+
+.leftP h2{
+    color: white;
+}
+
+.leftP p{
+    color: white;
+}
+
+#register .rightP{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    color: rgb(4 125 255);
+}
+
+.signUp{
+    display: flex;   
+    justify-content: center;
+}
+
+form{
+    width: 300px;
+}
+
+.signUp p{
+    margin-left: 5px;
+    color: rgb(4 125 255);
+}
+
+.button span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.forget a{
+    text-decoration: none;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.submitP {
+    display: flex;
+    justify-content: center;
+}
+
+.submitP button{
+    width: 300px;
+}
